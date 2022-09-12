@@ -11,7 +11,7 @@ header{
     color: white;
     text-align: center;
     padding-top:50px;
-    
+    font-variant: small-caps;    
 }
 header>h1{
     
@@ -66,4 +66,18 @@ section#imagem2 >p{
     background-color: rgba(0, 0, 0, 0.452);
     width: 600px;
     
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 30px;
+    padding-top: 5px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
 }
