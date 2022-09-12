@@ -1,11 +1,23 @@
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Passion One',cursive;
+    --font3:'Sriracha',cursive;
+}
 *{
     padding: 0px;
     margin: 0px;
+
 }
 
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-size: large;
     height: 200px;
     color: white;
@@ -17,6 +29,7 @@ header>h1{
     
     font-weight: bolder;
     font-size: 5em;
+    font-family: var(--font1);
    
 }
 header>p{
@@ -30,12 +43,15 @@ header a{
 header a:hover{
     text-decoration: underline;
 }
-
-
-section p {
+section{
+    padding-bottom: 50px;
+}
+section>p{
+    font-family: var(--font3);
     font-size: 3em;
     padding: 40px;
     line-height:1.7em
+    
 }
 
 section#imagem1{
@@ -52,8 +68,8 @@ section#imagem1{
 section#imagem1 >p {
     color: white;
     background-color: rgba(0, 0, 0, 0.452);
-    width: 600px;
-    height: 500px;
+    display: inline-block;
+    padding: 10px;
    
 }
 section#imagem2{
@@ -64,8 +80,8 @@ section#imagem2{
 section#imagem2 >p{
     color: white;
     background-color: rgba(0, 0, 0, 0.452);
-    width: 600px;
-    
+    display: inline-block;
+    padding: 20px;
 }
 footer{
     background-color: black;
